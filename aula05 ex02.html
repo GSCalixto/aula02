@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<title>aula05 ex02</title>
+		<meta charset="UTF-8">
+		<meta name="viewimport" content="width=device-width;inicial-scale=1;">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="aula05 ex02.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="aula5ex2js.js"></script>
+	</head>
+	<body>
+		<div>
+			<div class="row">
+				<div class="container-fluid" id="topo">
+						<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+						<h1>Grand Chase</h1>
+						<h2>loja</h2>
+				</div>
+			</div>
+			<div class="row text-center" >
+				<button type="button" class="btn btn-danger" onclick="c1()">Produtos</button>
+				<button type="button" class="btn btn-success" onclick="c2()">Formulário</button>
+			</div>
+			<div id="corpo" class="row" class="container">
+				<div class="container" class="text-center" id="Prod">
+					<image src="tec.png" >
+					<font color="#000">
+						<h1>Produto</h1>
+						<h2>Teceract</h2>
+						<h3>O Teceract é um equipamento para auxiliar na destorção do espaço tempo. Com aprosimadamente 20x20 cm² e um peso médio de 5kg (por distorcer o tempo-espaço ele pode alterar de tamanho e dencidade)</h3>
+					</font>
+				</div>
+				<div class="container" class="row text-center" id="Form">
+					<font color="#000">		
+						<h1>Formulário</h1>
+					</font>
+					<fieldset>
+						<div class="linhaFina" style="background: #fff">
+							<div class="coluna1">
+								<font color="#000">
+									<label>Nome:</label>
+								</font>
+							</div>
+							<div class="coluna2">
+								<input type="text" name="q" size="55">
+							</div>
+						</div>
+						<div class="linhaFina" style="background: #fff">
+							<div class="coluna1">
+								<font color="#000">
+									<label>E-mail: </label><br></br>
+								</font>
+							</div>
+							<div class="coluna2">
+								<input type="text" size="55">
+							</div>
+						</div>
+						<div class="linhaGrossa" style="background: #fff">
+							<div class="coluna1">
+								<font color="#000">
+									<label> Mensagem:</label>
+								</font>
+							</div>
+							<div class="coluna2">
+								<textarea size="55" cols="64" rows="5"></textarea><br></br>
+							</div>
+						</div>	
+						<div class="linhaFina" style="background: #fff">
+							<div class="coluna2">
+								<font color="#000">
+									<input type="submit" value="enviar">
+								</font>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

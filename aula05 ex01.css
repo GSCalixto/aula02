@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#topo{
+	width: 100%;
+	height: 150px;
+	background: black;
+	text-align: center;
+	color: white;
+	padding: 2%;
+}
+#conteudo1{
+	width: 100%;
+	height: 550px;
+	background: #ccc;
+	text-align: center;
+	color: white;
+	padding: 2%;
+}
+#conteudo2{
+	width: 100%;
+	height: 150px;
+	background: #ccc;
+	text-align: center;
+	color: white;
+	padding: 2%;
+	display: none;
+}

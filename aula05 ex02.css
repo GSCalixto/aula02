@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#topo{
+	font-family: 'Pacifico', cursive;
+	width: 100%;
+	height: 300px;
+	background: black;
+	text-align: center;
+	color: white;
+	padding: 2%;
+}
+#Prod{
+	width: 100%;
+	height: 610px;
+	background: #fff;
+	text-align: center;
+	color: white;
+	padding: 0%;
+	display: none;
+}
+#Form{
+	float: center;
+	width: 90%;
+	height: 610px;
+	background: #fff;
+	text-align: left;
+	color: white;
+	padding: 0%;
+	display: none;
+}
+#corpo{
+	margin: 1% 0% 0% 27%;
+	width: 50%;
+	height: 610px;
+	padding: 0%;
+}
+#produto{
+	width: 100%;
+	height: 90%;
+	background: #fff;
+	text-align: right;
+}
+.texto{
+	float: right;
+}.linhaFina{
+	width: 100%;
+	height: 25px;
+}
+.linhaGrossa{
+	float: left;
+	width: 100%;
+	height: 120px;
+}
+.coluna1{
+	float: left;
+}
+.coluna2{
+	float: left;
+}
+.top{
+	float:left;
+    margin:0 0 20px 10px;
+}
+img {
+    float:left;
+    margin:0 0 20px 10px;
+  }
